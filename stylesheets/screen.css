@@ -482,6 +482,14 @@ body .profile-info .rating .count-follow {
   background: #007ee5;
   color: #fff;
 }
+.btn-log {
+  background: #007ee5;
+  color: #fff;
+}
+.btn-log:hover {
+  background: #fff;
+  color: #007ee5;
+}
 @media (max-width: 767px) {
   .btn {
     border: none;

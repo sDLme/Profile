@@ -11,7 +11,17 @@
     background: $prime-text-color;
     color: $importent-color;
   }
+  &-log {
+    background: $prime-text-color;
+    color: $importent-color;
+    &:hover {
+      background: $importent-color;
+      color: $prime-text-color
+    }
+  }
   @media (max-width:767px) {
     border: none;
   }
+
 }
+
