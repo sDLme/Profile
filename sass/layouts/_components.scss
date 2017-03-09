@@ -1,0 +1,126 @@
+
+.text-color {
+  &-prime{
+    color: $prime-text-color;
+  }
+  &-base {
+    color: $base-text-color;
+  }
+  &-light {
+    color: $light-text-color;
+  }
+  &-dark {
+    color: $dark-text-color;
+  }
+}
+.icon-color {
+  color: $icone-colore;
+}
+
+.text-size {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: 'Open Sans', sans-serif;
+
+    @media (min-width: 768px) {
+      font-size: 0.9rem;
+      line-height: 1rem;
+    }
+  &-lg {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  &-md {
+    font-size: 1.06rem;
+    line-height: 1.37rem;
+  }
+  &-sm {
+    font-size: 0.875rem;
+    line-height: 1rem;
+
+  }
+  &-xs {
+    font-size: 0.75rem;
+    line-height: 0.93rem;
+  }
+  .-bold {
+    font-weight: 700;
+  }
+}
+.text-style {
+  text-transform: uppercase;
+}
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+button:active,
+input,
+input:active {
+  outline: none;
+}
+
+
+.edit-btn,
+.site-nav-link,
+.site-nav-link:hover,
+.site-nav-link:active,
+.site-nav-link:visited
+.edit-btn:hover,
+.edit-btn:active,
+.edit-btn:visited
+{
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.input-style {
+    width: 100%;
+    padding: 13px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+.btn-edit-base {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: $button-color;
+  color: $icone-colore;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover, :active {
+    background: $prime-text-color;
+    color: $importent-color;
+
+  }
+  &-mob {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.section {
+  position: absolute;
+  right: 0;
+  top: 0;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+
+.wrapp {
+  max-width: 1160px;
+  margin: 35px auto;
+  padding: 25px 25px 0;
+  background: #fff;
+}

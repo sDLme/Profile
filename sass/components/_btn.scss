@@ -1,0 +1,17 @@
+.btn {
+  padding: 9px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid $prime-text-color;
+  border-radius: 3px;
+  background: transparent;
+  color: $prime-text-color;
+  cursor: pointer;
+  &:hover {
+    background: $prime-text-color;
+    color: $importent-color;
+  }
+  @media (max-width:767px) {
+    border: none;
+  }
+}
